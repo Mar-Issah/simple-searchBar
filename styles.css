@@ -6,5 +6,25 @@
 .background{
 	width:100vw;
 	height: 100vh;
-	background-color: red;
+
+	 background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)), url('./flower-background-vector.jpg') center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.input{
+	width: 50%;
+	height:80px;
+	font-size: 24px;
+	padding-left: 15px;
+	border: 3px solid brown;
+	border-radius: 40px;
+}
+.fa{
+	font-size: 24px;
+
 }
