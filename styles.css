@@ -1,20 +1,15 @@
 *,body{
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
 .background{
-	width:100vw;
 	height: 100vh;
-
 	 background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.6)), url('./flower-background-vector.jpg') center;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	padding: 50px 30px ;
 }
-
-
 
 .input{
 	width: 50%;
@@ -23,8 +18,24 @@
 	padding-left: 15px;
 	border: 3px solid brown;
 	border-radius: 40px;
+	display:flex;
+	margin: 0 auto;
 }
-.fa{
-	font-size: 24px;
+.user-cards{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 10px;
+margin-top: 20px;
+}
 
+.card{
+	border: 1px solid brown;
+	background-color: aquamarine;
+	padding: 5px;
+	border-radius: 5px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
