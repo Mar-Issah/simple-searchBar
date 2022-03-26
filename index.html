@@ -12,16 +12,17 @@
   </head>
   <body>
     <div class="background">
-      <input class="input" placeholder="Search..." />
-      <div class="user-cards">
+      <input class="input" data-input placeholder="Search..." />
+      <div class="user-cards" data-user-card-container>
 				<!-- The <template> HTML element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript. -->
 				<!-- data-user-template is a unique attribute for this template -->
 				<template data-user-template>
         <div class="card">
-          <h2 class="header">John</h2>
-          <h4 class="body">john@gmail.com</h4>
+          <h2 class="header" data-header>John</h2>
+          <h4 class="body" data-body>john@gmail.com</h4>
 				</div>
 				</template>
     </div>
+		<script src="./index.js"></script>
   </body>
 </html>
