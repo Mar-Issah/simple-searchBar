@@ -1,2 +1,2 @@
-# Simple search Bar
+# Simple search bar
 HTML, CSS, JavaScript
